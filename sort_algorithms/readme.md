@@ -4,6 +4,7 @@ Feel free to contribute to the project implementations in other languages
 
 ## Quick Sort Algorithm
 `time complexity`: It has a worst case running time of O(n2), but the average case running time is O(nlog(n)) where n is the length of the input to be sorted.
+
 `space complexity`: The in-place version of quicksort has a space complexity of O(log n), even in the worst case. However, the recursive calls, in the worst case quicksort could make O(n) nested recursive calls and need O(n) auxiliary space.
 
 `how it works`: The quick sort algorithm makes use of the divide and conqueer approach to solve sorting problems. Taking the array/list provided, the algorithm selects a random value from the list/array as the value for comparison, a pivot which acts as the central point. Using this value it runs through the list/array and places the values in the appropriate side of the pivot, either to the list/array on the left which has values less than the pivot value or the list/array on the right which has greate values. This algorithm is recursive, this means that the left and right subarrays/sublists undergo the same process till they are all sorted.
